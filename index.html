@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Diary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Diary</h1>
+        <form id="diaryForm">
+            <label for="entryTitle">Title:</label>
+            <input type="text" id="entryTitle" required>
+            
+            <label for="entryContent">Content:</label>
+            <textarea id="entryContent" required></textarea>
+            
+            <button type="submit">Add Entry</button>
+        </form>
+        <h2>Diary Entries</h2>
+        <ul id="diaryEntries"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
